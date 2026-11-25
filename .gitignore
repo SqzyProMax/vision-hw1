@@ -1,0 +1,23 @@
+# 构建产物
+build/
+cmake-build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+
+# 编辑器
+.vscode/
+.idea/
+*.user
+*.swp
+
+# 可执行文件与库
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.dll
+
+# Windows 保留设备名，误生成的文件（不会进版本库）
+nul

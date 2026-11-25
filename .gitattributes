@@ -1,0 +1,11 @@
+# 统一行尾：源码与文本用 LF，图片保持二进制原样
+* text=auto eol=lf
+
+*.cpp  text eol=lf
+*.hpp  text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
